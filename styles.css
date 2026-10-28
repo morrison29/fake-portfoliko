@@ -33,6 +33,7 @@ li a{
 .logo{
     font-size: 20px;
     font-weight: 600;
+    padding-left: 30px;
 }
 .socials{
     display:flex;
@@ -40,4 +41,46 @@ li a{
     padding-right: 20px;
     font-size: 20px;
 
+}
+main{
+    margin-top: 100px;
+    padding: 20px;
+}
+.blue-header{
+    color: #7D82EE;
+}
+.hero{
+    display: flex;
+}
+.hero > div{
+    width: 50%;
+}
+#left{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding-left: 30px;
+    justify-content: center;
+}
+.btns{
+    display: flex;
+    gap: 50px;
+    margin-top: 60px;
+}
+.hire-btn{
+    font-size: 20px;
+    border-radius: 25px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    background: linear-gradient(to right, #7720FB, #00A8FF);
+    color: #ffffff;
+}
+.previous-btn{
+    border-radius: 25px;
+    background-color: transparent;
+    padding: 15px;
+    border: none;
+    font-weight: 600;
 }

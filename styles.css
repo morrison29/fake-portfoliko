@@ -44,14 +44,15 @@ li a{
 }
 main{
     margin-top: 100px;
-    padding: 20px;
 }
 .blue-header{
     color: #7D82EE;
 }
 .hero{
     display: flex;
+    padding: 0 20px;
 }
+
 .hero > div{
     width: 50%;
 }
@@ -59,12 +60,15 @@ main{
     display: flex;
     flex-direction: column;
     gap: 30px;
-    padding-left: 30px;
+    padding: 0 30px;
     justify-content: center;
+}
+#right > img{
+    width: 100%;
 }
 .btns{
     display: flex;
-    gap: 50px;
+    gap: 100px;
     margin-top: 60px;
 }
 .hire-btn{

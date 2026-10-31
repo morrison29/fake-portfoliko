@@ -1,6 +1,6 @@
 *{
-    padding: 0;
     margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
 body{
@@ -8,83 +8,72 @@ body{
 }
 header{
     display: flex;
-    justify-content:space-between;
-    background-color: #ffffff;
-    padding: 20px;
+    justify-content: space-between;
+    padding: 20px 60px;
     position: fixed;
-    left: 0;
     right: 0;
+    left: 0;
     top: 0;
-    align-items: center;
+    font-size: 1.2rem;
 }
 ul{
-    list-style-type: none;
-    display : flex;
+    display: flex;
     gap: 20px;
-    
+    list-style: none;
 }
-li a{
+li > a{
     text-decoration: none;
+    color: black;
     text-transform: capitalize;
-    color:black;
-    font-weight:500;
-
 }
-.logo{
-    font-size: 20px;
-    font-weight: 600;
-    padding-left: 30px;
-}
-.socials{
-    display:flex;
-    gap:15px;
-    padding-right: 20px;
-    font-size: 20px;
-
-}
-main{
-    margin-top: 100px;
-}
-.blue-header{
-    color: #7D82EE;
+.socials > i {
+    padding-right: 10px;
 }
 .hero{
     display: flex;
-    padding: 0 20px;
+    padding-top: 100px;
 }
-
 .hero > div{
     width: 50%;
 }
 #left{
-    display: flex;
-    flex-direction: column;
-    gap: 30px;
-    padding: 0 30px;
-    justify-content: center;
+    padding-top: 200px ;
+    padding-left: 60px;
+    font-size: 1.5rem;
+}
+.intro-p{
+    padding-bottom: 50px;
+    padding-top: 10px;
+
+}
+span{
+    color: #7720FB;
+}
+#right{
+    padding-left: 50px;
 }
 #right > img{
-    width: 100%;
+    width: 50rem;
+    height: 50rem;
 }
 .btns{
     display: flex;
-    gap: 100px;
-    margin-top: 60px;
+    gap: 200px;
+    padding-top: 60px;
 }
 .hire-btn{
-    font-size: 20px;
-    border-radius: 25px;
-    padding-left: 30px;
-    padding-right: 30px;
-    padding-bottom: 10px;
-    padding-top: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 40px;
+    padding-left: 40px;
+    border-radius: 35px;
+    border: 0;
     background: linear-gradient(to right, #7720FB, #00A8FF);
-    color: #ffffff;
+    color: white;
+    font-size: 1.5rem;
 }
-.previous-btn{
-    border-radius: 25px;
-    background-color: transparent;
-    padding: 15px;
-    border: none;
-    font-weight: 600;
+.works-btn{
+    background-color: white;
+    border: 0;
+    font-size: 1.5rem;
 }
